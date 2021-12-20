@@ -1,10 +1,4 @@
-"""
-This is the LifeStore_SalesList data:
 
-lifestore_searches = [id_search, id product]
-lifestore_sales = [id_sale, id_product, score (from 1 to 5), date, refund (1 for true or 0 to false)]
-lifestore_products = [id_product, name, price, category, stock]
-"""
 
 lifestore_products = [
     [1, 'Procesador AMD Ryzen 3 3300X S-AM4, 3.80GHz, Quad-Core, 16MB L2 Cache', 3019, 'procesadores', 16],
@@ -324,7 +318,6 @@ lifestore_sales = [
     [216, 54, 5, '11/05/2020', 0],
     [217, 54, 5, '08/05/2020', 0],
     [218, 54, 5, '04/05/2020', 0],
-    [219, 54, 4, '04/05/2002', 0],
     [220, 54, 5, '04/05/2020', 0],
     [221, 54, 5, '04/05/2020', 0],
     [222, 54, 4, '30/04/2020', 0],
@@ -1426,3 +1419,11 @@ lifestore_searches = [
     [1032, 95],
     [1033, 95]
 ]
+
+"""
+This is the LifeStore_SalesList data:
+
+lifestore_searches = [id_search, id product]
+lifestore_sales = [id_sale, id_product, score (from 1 to 5), date, refund (1 for true or 0 to false)]
+lifestore_products = [id_product, name, price, category, stock]
+"""
